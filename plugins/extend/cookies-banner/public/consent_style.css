@@ -1,0 +1,136 @@
+.consent-wrap-full {
+  padding: 40px;
+  position: fixed;
+  z-index: 99999;
+  border-top: 1px solid #666;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+}
+
+.consent-wrap-full.hidden {
+  display: none;
+}
+
+.consent-inner-wrap {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.consent-inner-wrap {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.consent-btns {
+  margin-top: 40px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.consent-accept {
+  padding: 10px 20px;
+  background-color: #0d910d;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: ease-in-out .3s;
+}
+
+.consent-accept:hover {
+  background-color: #0d680d;
+}
+
+.consent-decline-all {
+  padding: 10px 20px;
+  background-color: #fff;
+  font-weight: 400;
+  cursor: pointer;
+  transition: ease-in-out .3s;
+  border: 2px solid #000;
+}
+
+.consent-decline-all:hover {
+  border-color: #006400;
+}
+
+.consent-settings,
+.cookies-settings-btn {
+  padding: 10px 20px;
+  background-color: #fff;
+  font-weight: 400;
+  cursor: pointer;
+  transition: ease-in-out .3s;
+  border: 2px solid #000;
+  display: inline-block;
+}
+
+.consent-settings:first-letter,
+.show-settings .consent-settings:first-letter {
+  text-transform: uppercase;
+}
+
+.consent-settings:hover,
+.cookies-settings-btn:hover {
+  border-color: #006400;
+}
+
+.settings-tab {
+  margin-top: 30px;
+}
+
+.cookie-line {
+  padding: 15px 0;
+  padding-right: 50px;
+  border-top: 1px solid #aaa;
+  position: relative;
+}
+
+.cookie-line:last-child {
+  border-bottom: 1px solid #aaa;
+}
+
+.cookie-line h3 {
+  font-size: 1.15rem;
+  margin: 0;
+}
+
+.cookie-line .cookie-desc {
+  font-size: .85rem;
+  margin-top: 7px;
+}
+
+.cookie-line input[type="checkbox"] {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 0;
+  top: 15px;
+  cursor: pointer;
+}
+
+.settings-tab {
+  display: none;
+}
+
+.show-settings .settings-tab {
+  display: block;
+}
+
+#consent-save,
+#consent-settings-back {
+  display: none;
+}
+
+.show-settings #consent-save,
+.show-settings #consent-settings-back {
+  display: block;
+}
+
+.show-settings #consent-accept-all,
+.show-settings #consent-settings {
+  display: none;
+}

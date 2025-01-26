@@ -1,0 +1,29 @@
+{
+	"$schema": "../../../system/schema/extend.json",
+	"name": "Cookies Banner",
+	"description": "Cookies Banner",
+	"authors": [
+		{"url": "https://www.pitak.wtf/"}
+	],
+	"version": "0.0.1",
+	"environment": {
+		"system": "^8.0"
+	},
+	"langs": {
+		"cookies": "lang",
+		"admin": "lang"
+	},
+	"hcm": {
+		"cookies_btn": {"script": "hcm/cookies_btn.php"}
+	},
+	"installer": "install/installer.php",
+	"events": [],
+	"events.web": [
+		{"event": "tpl.body.end", "script": "event/tpl_body_end.php"},
+		{"event": "tpl.head", "script": "event/tpl_head.php"}
+	],
+	"events.admin": [
+		{"event": "admin.init", "script": "event/admin_init.php"},
+		{"event": "admin.content.modules", "script": "event/admin_content_modules.php"}
+	]
+}
