@@ -7,7 +7,7 @@
 	],
 	"version": "0.0.1",
 	"environment": {
-		"system": "^8.0"
+		"system": "^8.2"
 	},
 	"langs": {
 		"cookies": "lang",

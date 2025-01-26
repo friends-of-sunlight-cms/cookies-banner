@@ -26,4 +26,3 @@ return function(array $args) {
     };
   }
 };
-?>
