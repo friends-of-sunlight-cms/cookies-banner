@@ -1,11 +1,11 @@
 {
 	"$schema": "../../../system/schema/extend.json",
 	"name": "Cookies Banner",
-	"description": "Cookies Banner",
+	"description": "A simple and customizable cookie banner plugin for managing user consent and complying with privacy regulations like GDPR. Supports analytical and marketing cookie preferences with easy integration.",
 	"authors": [
-		{"url": "https://www.pitak.wtf/"}
+		{"name": "Friends of Sunlight CMS", "url": "https://github.com/friends-of-sunlight-cms/"}
 	],
-	"version": "0.0.1",
+	"version": "1.0.0",
 	"environment": {
 		"system": "^8.2"
 	},
